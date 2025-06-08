@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 
 
 try {
-    const port = process.env.port || 3000
+    const port = process.env.port || 5100
     app.listen(port, () => console.log(`Conectado en el puerto ${port}`))
 } catch (error) {
     console.error(`No se pudo conectar al servidor: ${errpor.message}`)
